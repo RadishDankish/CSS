@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0.5rem;
+    text-align: center;
+}
+
+h2
+{
+    font-size: 2rem;
+    background-color: beige;
+    border: 0.2rem solid black;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+}
+
+nav {
+    background-color: turquoise;
+    border: 0.2rem solid black;
+    border-radius: 2rem;
+    margin: 2rem auto;
+    font-size: 1.5rem;
+    line-height: 5rem;
+
+}
+
+p{
+    background-color: beige;
+    border: 0.2rem solid black;
+    border-radius: 2rem;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    border-bottom : 2px solid black;
+}
+
+li a {
+    display: block;
+}
+
+li a, li a:visited {
+    text-decoration: none;
+    color: brown;
+}
+
+li a:hover {
+    color: white;
+    background-color: blueviolet;   
+}
+
+a:focus {
+    background-color: black;
+    color: white;
+}
+
+li:first-child a:hover {
+    border-radius:  2rem 2rem 0 0;
+}
+
+li:last-child a:hover {
+    border-radius:  0 0 2rem 2rem;
+}
+
+li:last-child{
+    border-radius:  0 0 2rem 2rem;
+}
